@@ -1,4 +1,24 @@
-@tailwind base;
+ul {
+  list-style-type: none; /* เอาจุดข้างหน้าออก */
+  padding: 0; /* เอา padding ออก */
+  margin: 0; /* เอา margin ออก */
+}
+
+li {
+  margin-bottom: 10px; /* เพิ่มช่องว่างระหว่างรายการ */
+}
+
+a {
+  text-decoration: none; /* เอาขีดใต้คำออก */
+  color: inherit; /* ทำให้สีของลิงก์เหมือนกับสีข้อความทั่วไป */
+}
+
+.GenIcon {
+  margin-right: 8px; /* เพิ่มช่องว่างระหว่างไอคอนกับข้อความ */
+  vertical-align: middle; /* จัดให้ไอคอนอยู่ตรงกลางแนวตั้งกับข้อความ */
+}
+
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -30,4 +50,4 @@ body {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
